@@ -1,4 +1,4 @@
-//Caleb Barbee CIS407 Week 5: Course Project
+//Caleb Barbee CIS407 Week 4: Course Project
 package courseProject;
 
 public class DataEntry {
