@@ -1,4 +1,4 @@
-//Caleb Barbee CIS407 Week 4: Course Project
+//Caleb Barbee CIS407 Week 6: Course Project
 package courseProject;
 
 import java.util.ArrayList;
@@ -15,6 +15,7 @@ public class Customer {
 	String state;
 	String zip;
 	String phone;
+	String accountNumber;
 	
 	public void setCustomerID(String id) {
 		this.customerID = id;
@@ -79,6 +80,13 @@ public class Customer {
 		return this.phone;
 	}
 	
+	public void setAccountNumber(String accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+	public String getAccountNumber() {
+		return this.accountNumber;
+	}
+	
 	public List<String> toStringList() {
 		List<String> result = new ArrayList<>();
 		result.add(this.customerID);
@@ -90,6 +98,7 @@ public class Customer {
 		result.add(this.state);
 		result.add(this.zip);
 		result.add(this.phone);
+		result.add(this.accountNumber);
 		return result;
 	}
 	
@@ -102,7 +111,8 @@ public class Customer {
 		result += this.city + "\t";
 		result += this.state + "\t";
 		result += this.zip + "\t";
-		result += this.phone;
+		result += this.phone + "\t";
+		result += this.accountNumber;
 		return result;
 	}
 

@@ -1,4 +1,4 @@
-//Caleb Barbee CIS407 Week 4: Course Project
+//Caleb Barbee CIS407 Week 6: Course Project
 package courseProject;
 
 public class DataEntry {
@@ -28,7 +28,7 @@ public class DataEntry {
 		return (min <= entry && entry <= max);
 	}
 	
-	public static boolean validateDecimalRange(float entry, float min, float max) {
+	public static boolean validateDecimalRange(double entry, double min, double max) {
 		return (min <= entry && entry <= max);
 	}
 	
